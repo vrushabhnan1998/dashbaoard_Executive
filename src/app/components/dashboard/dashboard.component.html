@@ -1,0 +1,134 @@
+<div class="container-fluid bg-body-secondary h-100">
+    <h2>Exclutive Dashboard</h2>    
+    <div class="row m-0 p-0 gap-3">
+        <form action="">
+            <div class="card rounded col-2 px-2">
+                <div>
+                    <app-range-date-picker [labelName]="'Auto Date Range'" [dropdownValue]="" [options]="autoDateRange" (dropdownValueEmit)="range($event);" class="col-2 status-button "></app-range-date-picker>
+                </div>
+            </div>  
+        </form>
+       
+        <div class="row m-0 p-0 gap-3">
+            <div class="card col p-3">
+                <span class="font-primary">New Wins</span>
+                    <div class="d-flex flex-column justify-content-center align-items-center h-100">
+                        <h1 class="fw-bold">230</h1>
+                        <h3 class="color-green d-flex align-items-center"><svg fill="#74b264" height="20px" width="20px" version="1.1" id="Layer_1"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330.00 330.00"
+                            xml:space="preserve" stroke="#74b264" stroke-width="10.0033">
+                    
+                            <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                    
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC"
+                                stroke-width="0.66" />
+                    
+                            <g id="SVGRepo_iconCarrier">
+                                <path id="XMLID_29_"
+                                    d="M100.606,100.606L150,51.212V315c0,8.284,6.716,15,15,15c8.284,0,15-6.716,15-15V51.212l49.394,49.394 C232.322,103.535,236.161,105,240,105c3.839,0,7.678-1.465,10.606-4.394c5.858-5.857,5.858-15.355,0-21.213l-75-75 c-5.857-5.858-15.355-5.858-21.213,0l-75,75c-5.858,5.857-5.858,15.355,0,21.213C85.251,106.463,94.749,106.463,100.606,100.606z" />
+                            </g>
+                    
+                        </svg>25%</h3>                        <span class="fw-semibold color-grey">vs previous 30 days</span>
+                    </div>
+            </div>
+            <div class="card col p-3">
+                <span class="font-primary">Trial:Win Rate</span>
+                    <div class="d-flex flex-column justify-content-center align-items-center h-100">
+                        <div class="d-flex">
+                            <h1 class="fw-bold">9.86</h1><h6 class="fw-bold mt-2">%</h6>
+                        </div>
+                        <h3 class="color-green d-flex align-items-center"><svg fill="#74b264" height="20px" width="20px" version="1.1" id="Layer_1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330.00 330.00"
+                                xml:space="preserve" stroke="#74b264" stroke-width="10.0033">
+                        
+                                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                        
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC"
+                                    stroke-width="0.66" />
+                        
+                                <g id="SVGRepo_iconCarrier">
+                                    <path id="XMLID_29_"
+                                        d="M100.606,100.606L150,51.212V315c0,8.284,6.716,15,15,15c8.284,0,15-6.716,15-15V51.212l49.394,49.394 C232.322,103.535,236.161,105,240,105c3.839,0,7.678-1.465,10.606-4.394c5.858-5.857,5.858-15.355,0-21.213l-75-75 c-5.857-5.858-15.355-5.858-21.213,0l-75,75c-5.858,5.857-5.858,15.355,0,21.213C85.251,106.463,94.749,106.463,100.606,100.606z" />
+                                </g>
+                        
+                            </svg>25%</h3>
+                       
+                        <span class="fw-semibold color-grey">vs previous 30 days</span>
+                    </div>
+            </div>
+            <div class="card col p-3">
+                <span class="font-primary">New MRR</span>
+                    <div class="d-flex flex-column justify-content-center align-items-center h-100">
+                        <div class="d-flex">
+                            <h6 class="fw-bold mt-2">$</h6><h1 class="fw-bold">25,690</h1>
+                        </div>
+                        <h3 class="color-green d-flex align-items-center"><svg fill="#74b264" height="20px" width="20px" version="1.1" id="Layer_1"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330.00 330.00"
+                            xml:space="preserve" stroke="#74b264" stroke-width="10.0033">
+                    
+                            <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                    
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC"
+                                stroke-width="0.66" />
+                    
+                            <g id="SVGRepo_iconCarrier">
+                                <path id="XMLID_29_"
+                                    d="M100.606,100.606L150,51.212V315c0,8.284,6.716,15,15,15c8.284,0,15-6.716,15-15V51.212l49.394,49.394 C232.322,103.535,236.161,105,240,105c3.839,0,7.678-1.465,10.606-4.394c5.858-5.857,5.858-15.355,0-21.213l-75-75 c-5.857-5.858-15.355-5.858-21.213,0l-75,75c-5.858,5.857-5.858,15.355,0,21.213C85.251,106.463,94.749,106.463,100.606,100.606z" />
+                            </g>
+                    
+                        </svg>25%</h3>                        <span class="fw-semibold color-grey">vs previous 30 days</span>
+                    </div>
+            </div>
+            <div class="card col p-3">
+                <apx-chart
+                      [series]="pieChart.series"
+                      [labels]="pieChart.labels"
+                      [legend]="pieChart.legend"
+                      [plotOptions]="pieChart.plotOptions"
+                      [colors]="pieChart.colors"
+                      [chart]="pieChart.chart"
+                      [xaxis]="pieChart.xaxis"
+                      [fill]="pieChart.fill"
+                      [dataLabels]="pieChart.dataLabels"
+                      [title]="pieChart.title"
+                      [yaxis]="pieChart.yaxis"
+                    ></apx-chart>
+
+            </div>
+        </div>
+        <div class="row gap-3 m-0 p-0">
+            <div class="card col p-3">
+                <div id="chart">
+                    <apx-chart
+                      [series]="bubbleChart.series"
+                      [colors]="bubbleChart.colors"
+                      [chart]="bubbleChart.chart"
+                      [legend]="bubbleChart.legend"
+                      [xaxis]="bubbleChart.xaxis"
+                      [grid]="bubbleChart.grid"
+                      [dataLabels]="bubbleChart.dataLabels"
+                      [title]="bubbleChart.title"
+                      [yaxis]="bubbleChart.yaxis"
+                    ></apx-chart>
+                  </div>
+            </div>
+            <div class="card col p-3">
+                <div id="columnChart">
+                    <apx-chart
+                      [series]="columnChart.series"
+                      [colors]="columnChart.colors"
+                      [plotOptions]="columnChart.plotOptions"
+                      [legend]="columnChart.legend"
+                      [chart]="columnChart.chart"
+                      [xaxis]="columnChart.xaxis"
+                      [fill]="columnChart.fill"
+                      [dataLabels]="columnChart.dataLabels"
+                      [title]="columnChart.title"
+                      [yaxis]="columnChart.yaxis"
+                    ></apx-chart>
+                  </div>
+            </div>
+        </div>
+    </div>
+    
+</div>

@@ -1,0 +1,40 @@
+.wrapper{
+    position: relative;
+    // z-index: 3;
+    .selected{
+        font-size: 13px;
+        font-family: Verdana, sans-serif;
+        font-weight: bold;  
+        color: black;
+    }
+
+    label{
+        margin-bottom: 0;
+        color:black;
+        font-family: Verdana, sans-serif;
+        font-size: 14px;
+    }
+    button{
+        background-color: white;
+        border: 0;
+    }
+
+    .dropdown-menu{
+        border: 1px solid grey;
+        .dropdown-item{
+            opacity: 1 !important;
+            cursor: pointer;
+            border: 0 !important;
+            color: black;
+        }
+    }
+
+    .option-div{
+        max-height: 10rem;
+        overflow: auto;
+        .options{
+            font-size: 13px;
+            color: black;
+        }
+    }
+} 
